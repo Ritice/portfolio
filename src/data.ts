@@ -1,7 +1,9 @@
 import { Project, Skill, Testimonial } from './types';
 
 export const personalInfo = {
-  name: "Jordan Keumeni",
+  name1: "Ritice",
+  name: "NGOUGUEU KEUMENI",
+  lastName: "Ritice Jordan",
   title: "Développeur Web Full-Stack",
   subtitle: "Créer des expériences web d'exception avec du code propre, performant et accessible.",
   bio: "Je suis un développeur web passionné par la création d'applications web modernes, fluides et centrées sur l'utilisateur. Spécialisé en React et dans l'écosystème moderne de JavaScript, j'aime transformer des idées complexes en produits numériques simples et élégants.",
@@ -10,7 +12,7 @@ export const personalInfo = {
   github: "https://github.com",
   linkedin: "https://linkedin.com",
   twitter: "https://twitter.com",
-  avatar: "/src/assets/images/developer_avatar_1783420701002.jpg"
+  avatar: "./public/images/developer_avatar_1783420701002.jpg"
 };
 
 export const skills: Skill[] = [

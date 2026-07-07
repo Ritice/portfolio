@@ -78,11 +78,12 @@ export default function Hero({ onContactClick, onProjectsClick }: HeroProps) {
           <motion.h1
             id="hero-heading"
             variants={itemVariants}
-            className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-gray-900 leading-tight mb-6 font-sans"
+            className="text-2xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-gray-900 leading-tight mb-6 font-sans"
           >
             Bonjour, je suis <br />
             <span className="text-blue-600 relative inline-block">
-              {personalInfo.name}
+              {personalInfo.name} <br />
+              {personalInfo.lastName}
               <span className="absolute left-0 bottom-1 w-full h-2 bg-blue-100 -z-10 rounded-full"></span>
             </span>
           </motion.h1>
@@ -160,11 +161,11 @@ export default function Hero({ onContactClick, onProjectsClick }: HeroProps) {
             className="grid grid-cols-3 gap-6 pt-8 border-t border-gray-100"
           >
             <div>
-              <p className="text-3xl md:text-4xl font-bold text-gray-900">3+</p>
+              <p className="text-3xl md:text-4xl font-bold text-gray-900">5+</p>
               <p className="text-xs md:text-sm text-gray-500 mt-1">Années de dev</p>
             </div>
             <div>
-              <p className="text-3xl md:text-4xl font-bold text-gray-900">15+</p>
+              <p className="text-3xl md:text-4xl font-bold text-gray-900">9+</p>
               <p className="text-xs md:text-sm text-gray-500 mt-1">Projets réalisés</p>
             </div>
             <div>
@@ -210,7 +211,7 @@ export default function Hero({ onContactClick, onProjectsClick }: HeroProps) {
               className="absolute -top-2 -right-4 bg-white border border-gray-100 px-3.5 py-2 rounded-xl shadow-md flex items-center space-x-1.5"
             >
               <span className="w-2.5 h-2.5 rounded-full bg-blue-400"></span>
-              <span className="text-xs font-semibold text-gray-700">React</span>
+              <span className="text-xs font-semibold text-gray-700">JAVA</span>
             </motion.div>
 
             <motion.div
@@ -220,7 +221,7 @@ export default function Hero({ onContactClick, onProjectsClick }: HeroProps) {
               className="absolute bottom-6 -left-6 bg-white border border-gray-100 px-3.5 py-2 rounded-xl shadow-md flex items-center space-x-1.5"
             >
               <span className="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
-              <span className="text-xs font-semibold text-gray-700">Node.js</span>
+              <span className="text-xs font-semibold text-gray-700">AWS</span>
             </motion.div>
 
             <motion.div
@@ -232,6 +233,7 @@ export default function Hero({ onContactClick, onProjectsClick }: HeroProps) {
               <span className="w-2.5 h-2.5 rounded-full bg-indigo-500"></span>
               <span className="text-xs font-semibold text-gray-700">Clean Code</span>
             </motion.div>
+
           </div>
         </motion.div>
 
