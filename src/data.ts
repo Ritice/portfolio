@@ -9,8 +9,8 @@ export const personalInfo = {
   bio: "Je suis un développeur web passionné par la création d'applications web modernes, fluides et centrées sur l'utilisateur. Spécialisé en React et dans l'écosystème moderne de JavaScript, j'aime transformer des idées complexes en produits numériques simples et élégants.",
   email: "riticejordan99@gmail.com",
   location: "Yaoundé, Cameroun",
-  github: "https://github.com",
-  linkedin: "https://linkedin.com",
+  github: "https://github.com/Ritice",
+  linkedin: "www.linkedin.com/in/ritice-jordan-ngougueu-keumeni-691077306",
   twitter: "https://twitter.com",
   avatar: "/images/developer_avatar_1783420701002.jpg"
 };
