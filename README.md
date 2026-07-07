@@ -1,4 +1,4 @@
-# 💻 Portfolio Professionnel — Jordan Keumeni
+# 💻 Portfolio Professionnel 
 
 Bienvenue dans le code source de mon portfolio professionnel de **Développeur Web Full-Stack**. 
 Ce site web moderne, responsive et minimaliste a été conçu pour présenter mes compétences techniques, mes projets récents et offrir un moyen direct de me contacter.
