@@ -1,0 +1,6 @@
+{
+  "name": "Portfolio Professionnel",
+  "description": "Un portfolio de développeur web moderne, responsive et minimaliste présentant des compétences techniques, des projets fictifs et un formulaire de contact.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
