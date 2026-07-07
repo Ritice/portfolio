@@ -12,7 +12,7 @@ export const personalInfo = {
   github: "https://github.com",
   linkedin: "https://linkedin.com",
   twitter: "https://twitter.com",
-  avatar: "./public/images/developer_avatar_1783420701002.jpg"
+  avatar: "/images/developer_avatar_1783420701002.jpg"
 };
 
 export const skills: Skill[] = [
@@ -37,7 +37,7 @@ export const projects: Project[] = [
     id: "taskflow",
     title: "TaskFlow - Gestionnaire de Tâches Agile",
     description: "Une application web collaborative de gestion de projets inspirée des tableaux Kanban. Permet de planifier des sprints, de suivre le temps de travail et de visualiser la progression globale en temps réel avec des diagrammes interactifs.",
-    image: "./public/images/project_task_manager_1783420717860.jpg",
+    image: "/images/project_task_manager_1783420717860.jpg",
     tags: ["React", "Tailwind CSS", "Framer Motion", "Lucide Icons"],
     demoUrl: "https://taskflow-demo.netlify.app",
     githubUrl: "https://github.com"
@@ -46,7 +46,7 @@ export const projects: Project[] = [
     id: "ecosphere",
     title: "EcoSphere - Calculateur d'Empreinte Carbone",
     description: "Un tableau de bord interactif permettant d'évaluer, de suivre et de réduire son empreinte carbone quotidienne. Comprend des visualisations de données précises, un système de défis écologiques et des recommandations personnalisées.",
-    image: "./public/images/project_carbon_tracker_1783420732182.jpg",
+    image: "/images/project_carbon_tracker_1783420732182.jpg",
     tags: ["React", "Recharts", "Tailwind CSS", "TypeScript"],
     demoUrl: "https://ecosphere-carbon.netlify.app",
     githubUrl: "https://github.com"
@@ -55,7 +55,7 @@ export const projects: Project[] = [
     id: "aurameditation",
     title: "Aura Meditation - Application de Mindfulness",
     description: "Un espace de relaxation numérique qui propose des exercices de respiration rythmés, des ambiances sonores configurables (bruit de pluie, forêt, vagues) et un suivi de ses sessions quotidiennes de bien-être.",
-    image: "./public/images/project_meditation_1783420745886.jpg",
+    image: "/images/project_meditation_1783420745886.jpg",
     tags: ["React", "Web Audio API", "Tailwind CSS", "Framer Motion"],
     demoUrl: "https://aura-mindfulness.netlify.app",
     githubUrl: "https://github.com"

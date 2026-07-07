@@ -145,13 +145,16 @@ export default function Hero({ onContactClick, onProjectsClick }: HeroProps) {
             </button>
             <a
               id="hero-cv-download"
-              href="#"
-              onClick={(e) => { e.preventDefault(); alert("Téléchargement du CV fictif démarré !"); }}
+              href="./public/CV_Ngougueu_Ritice_Jordan.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-6 py-4 text-gray-500 hover:text-blue-600 text-sm font-medium flex items-center justify-center space-x-1 hover:bg-blue-50/40 rounded-xl transition-colors cursor-pointer"
             >
               <Download className="w-4 h-4" />
               <span>Mon CV (PDF)</span>
             </a>
+
+            
           </motion.div>
 
           {/* Statistics Info */}
